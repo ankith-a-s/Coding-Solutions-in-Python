@@ -1,7 +1,7 @@
 class Solution:
-	# @param A : string
-	# @return a strings
-	def simplifyPath(self, A):
+    # @param A : string
+    # @return a strings
+    def simplifyPath(self, A):
         pathStack = []
         A = A.split('/')
         for word in A:
